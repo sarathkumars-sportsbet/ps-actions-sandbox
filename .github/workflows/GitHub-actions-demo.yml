@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-        echo "evnent name ${{github.event_name}}"
+          echo "evnent name ${{github.event_name}}"
     
         
           
